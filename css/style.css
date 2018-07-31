@@ -1,0 +1,56 @@
+<style>
+body{
+    padding: 0;
+    margin: 0
+ }
+ header{
+    border-bottom: 1px solid black;
+    font-size : 28px;
+    min-width: 100vw;
+    padding: 3vw 4vw 3vw 4vw;
+ }
+ 
+ header div{
+ float: right;
+ margin-right: 7vw;
+ font-size: 12px;
+ line-height: 6vh;
+ }
+ .Sidebar{
+    min-width: 30vw;
+    max-width: 30vw;
+    border-right: 1px solid black;
+    min-height: 700px;
+    max-height: 700px;
+    position: absolute;
+   display: inline;
+
+ }
+ .Main{
+     position: absolute;
+     display: inline-block;
+     min-width: 69.9vw;
+     max-width: 69.9vw;
+     min-height: 700px;
+     max-height: 700px;
+     right: 0;
+
+ }
+ form{
+     margin: 8vh 0vw 8vh 20vw;
+     margin-bottom: 2vh;
+ }
+ form input{
+     display: block;
+     margin-bottom: 2vh;
+ }
+footer{
+    position: absolute;
+    bottom: -24.6vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+</style>
